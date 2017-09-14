@@ -36,6 +36,13 @@ const toonify = (accent, sentence) => {
 	return newSentence
 };
 
+// Round 4
 
+const wordReverse = (thisString) => {
+
+	const revString = thisString.split(" ").reverse().join(" ");
+
+	return revString;
+}
 
 
