@@ -21,6 +21,21 @@ const transmogrfier = (num1, num2, num3) => {
 	return transmogrified;
 };
 
+// Round 3
+
+const toonify = (accent, sentence) => {
+
+	let newSentence = ""
+
+	if (accent = "daffy") {
+			newSentence = sentence.replace(/s/g, "th");
+	} else if (accent = "elmer") {
+			newSentence = sentence.replace(/r/g, "w");
+	};
+
+	return newSentence
+};
+
 
 
 
