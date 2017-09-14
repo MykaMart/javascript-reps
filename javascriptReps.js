@@ -11,3 +11,16 @@ const lengths = (arrStrings) => {
 }
 
 lengths(["humble", "bundle", "bundlestars", "gog"])
+
+// Round 2
+
+const transmogrfier = (num1, num2, num3) => {
+
+	const transmogrified = Math.pow((num1 *num2), num3);
+
+	return transmogrified;
+};
+
+
+
+
