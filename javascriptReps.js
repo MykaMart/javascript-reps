@@ -60,7 +60,6 @@ const letterReverse = (thatString) => {
 	return revWords;
 };
 
-
 // Round 6
 
 const longest = (arrOfStrings) =>{ 
@@ -71,14 +70,26 @@ const longest = (arrOfStrings) =>{
 	});
 
 	return arrOfStrings[arrOfStrings.length - 1];
+};
+
+// Final Round
+
+const pirateSpeak = (landLubberString) => {
+
+	pirateString = landLubberString.replace(/r/g, "Arrrrrr")
+
+	return pirateString
+
+}
+
+const repMaster = (input, iFunction) => {
+
+	return iFunction(input) + " proves that I am the rep MISTRESS!"
+
 }
 
 
-
-
-
-
-
+repMaster("red leather, yellow leather", pirateSpeak)
 
 
 
