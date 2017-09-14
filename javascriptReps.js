@@ -45,4 +45,29 @@ const wordReverse = (thisString) => {
 	return revString;
 }
 
+// Round 5
+
+const letterReverse = (thatString) => {
+
+	const arrStrings = thatString.split(" ");
+
+	for (i = 0; i <= arrStrings.length - 1; i++) {
+		arrStrings[i] = arrStrings[i].split("").reverse().join("");
+	}
+
+	const revWords = arrStrings.join(" ");
+
+	return revWords;
+};
+
+
+
+
+
+
+
+
+
+
+
 
