@@ -61,6 +61,20 @@ const letterReverse = (thatString) => {
 };
 
 
+// Round 6
+
+const longest = (arrOfStrings) =>{ 
+	
+	arrOfStrings = arrOfStrings.sort(function(a, b){
+
+		return a.length - b.length;
+	});
+
+	return arrOfStrings[arrOfStrings.length - 1];
+}
+
+
+
 
 
 
